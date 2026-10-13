@@ -1,0 +1,21 @@
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #171127;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: #24182e;
+  background: #ffc477;
+}
